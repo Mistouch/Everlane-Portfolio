@@ -40,7 +40,7 @@ const Garment = () => {
                 { name: "Sweater", image: mansweter, desc: "Luxury knits for refined comfort", season: "Autumn-Winter", path: "/men/sweater" },
                 { name: "Woven", image: woven, desc: "Structured shirts with tailored fit", season: "Year-Round", path: "/men/woven" },
                 { name: "Denim Pant", image: "/Men_Denim_Pant/2.png", desc: "Engineered denim with premium washes", season: "Iconic", path: "/men/denimpant" },
-                { name: "Denim Jacket", image: "/Men_Denim_Jacket/1.png", desc: "Timeless silhouettes reimagined", season: "Heritage", path: "/men/denimjacket" },
+                { name: "Denim Jacket", image: "/MenDenimJacket/1.png/1.png", desc: "Timeless silhouettes reimagined", season: "Heritage", path: "/men/denimjacket" },
                 { name: "Lingerie", image: MLingerie, desc: "Crafted comfort in breathable fabrics", season: "Essentials", path: "/men/lingerie" },
                 { name: "Shoes", image: Mshoes, desc: "Contemporary footwear with precision", season: "Complete The Look", path: "/Shoes" }
             ]

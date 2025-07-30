@@ -20,7 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && robocopy public\\Men_Denim_Jacket build\\Men_Denim_Jacket /E /NFL /NDL /NJH /NJS",
+    "deploy": "npm run build && firebase deploy --only hosting",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "convert-images": "cwebp -q 80 public/Men_Tees/*.png -o build/Men_Tees/ -e .webp"
