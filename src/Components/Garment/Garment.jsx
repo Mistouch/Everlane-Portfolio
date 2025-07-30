@@ -3,7 +3,7 @@ import './Garment.css';
 import Footer from "../Footerr/Footer,jsx";
 import { useNavigate } from 'react-router-dom';
 import tee from '../Assets/Tee.png';
-import chekcshirt from '../Men_Tees/3.png';
+import chekcshirt from '../../../public/Men_Tees/3.png';
 import mansweter from '../Men_Sweater/4.png';
 import woven from '../Men_woven/5.png';
 import Denim from '../Men_Denim_Pant/5.png';
