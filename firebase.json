@@ -16,8 +16,8 @@
         "destination": "/Men_Denim_Pant/**"
       },
       {
-        "source": "/Men_Denim_Jacket/**",
-        "destination": "/Men_Denim_Jacket/**"
+        "source": "/MenDenimJacket/**",
+        "destination": "/MenDenimJacket/**"
       },
       {
         "source": "**",
