@@ -7,7 +7,7 @@ const Menshirt = () => {
     // Sample t-shirt data
     const tshirts = [
         { id: 1, name: "Classic White Tee", color: "White", image: "/Men_Tees/1.png" },
-        { id: 2, name: "Black Premium Cotton", color: "Black", image: "/Men_Tees/3.png" },
+        { id: 2, name: "Black Premium Cotton", color: "Black", image: "/Men_Tees/2.png" },
         { id: 3, name: "Navy Blue Stripe", color: "Navy",  image: "/Men_Tees/3.png" },
         { id: 4, name: "Heather Gray", color: "Gray", image: "/Men_Tees/4.png" },
         { id: 5, name: "Red V-Neck", color: "Red",  image: "/Men_Tees/5.png" },
