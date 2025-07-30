@@ -4,7 +4,7 @@ import Footer from "../Footerr/Footer,jsx";
 import { useNavigate } from 'react-router-dom';
 import mansweter from '../Men_Sweater/4.png';
 import woven from '../Men_woven/5.png';
-import Djacket from '../Men_Denimn_Jacket/5.png';
+import Djacket from '../../../public/Men_Denimn_Jacket/5.png';
 import MLingerie from '../Men_Underware/4.png';
 import Mshoes from '../Assets/oxford.jpeg';
 import Wtee from '../Women_Tees/2.png';

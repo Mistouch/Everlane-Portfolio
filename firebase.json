@@ -16,9 +16,20 @@
         "destination": "/Men_Denim_Pant/**"
       },
       {
+        "source": "/Men_Denim_Jacket/**",
+        "destination": "/Men_Denim_Jacket/**"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "headers": [{
+      "source": "/**/*.@(jpg|jpeg|gif|png)",
+      "headers": [{
+        "key": "Cache-Control",
+        "value": "max-age=7200"
+      }]
+    }]
   }
 }
