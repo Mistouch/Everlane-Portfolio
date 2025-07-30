@@ -4,7 +4,6 @@ import Footer from "../Footerr/Footer,jsx";
 import { useNavigate } from 'react-router-dom';
 import mansweter from '../Men_Sweater/4.png';
 import woven from '../Men_woven/5.png';
-import Denim from '../Men_Denim_Pant/5.png';
 import Djacket from '../Men_Denimn_Jacket/5.png';
 import MLingerie from '../Men_Underware/4.png';
 import Mshoes from '../Assets/oxford.jpeg';
@@ -41,7 +40,7 @@ const Garment = () => {
                 { name: "T-Shirt", image: "/public/Men_Tees/1.png" , desc: "Premium cotton with perfect drape", season: "Essential", path: "/men/tee" },
                 { name: "Sweater", image: mansweter, desc: "Luxury knits for refined comfort", season: "Autumn-Winter", path: "/men/sweater" },
                 { name: "Woven", image: woven, desc: "Structured shirts with tailored fit", season: "Year-Round", path: "/men/woven" },
-                { name: "Denim Pant", image: Denim, desc: "Engineered denim with premium washes", season: "Iconic", path: "/men/denimpant" },
+                { name: "Denim Pant", image: "/Men_Denim_Pant/2.png", desc: "Engineered denim with premium washes", season: "Iconic", path: "/men/denimpant" },
                 { name: "Denim Jacket", image: Djacket, desc: "Timeless silhouettes reimagined", season: "Heritage", path: "/men/denimjacket" },
                 { name: "Lingerie", image: MLingerie, desc: "Crafted comfort in breathable fabrics", season: "Essentials", path: "/men/lingerie" },
                 { name: "Shoes", image: Mshoes, desc: "Contemporary footwear with precision", season: "Complete The Look", path: "/Shoes" }
