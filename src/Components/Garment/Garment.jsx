@@ -2,8 +2,6 @@ import React from 'react';
 import './Garment.css';
 import Footer from "../Footerr/Footer,jsx";
 import { useNavigate } from 'react-router-dom';
-import tee from '../Assets/Tee.png';
-import chekcshirt from '../../../public/Men_Tees/3.png';
 import mansweter from '../Men_Sweater/4.png';
 import woven from '../Men_woven/5.png';
 import Denim from '../Men_Denim_Pant/5.png';
@@ -40,7 +38,7 @@ const Garment = () => {
             title: "MEN'S COLLECTION",
             description: "Precision-crafted essentials for the modern man",
             categories: [
-                { name: "T-Shirt", image: chekcshirt, desc: "Premium cotton with perfect drape", season: "Essential", path: "/men/tee" },
+                { name: "T-Shirt", image: "/public/Men_Tees/1.png" , desc: "Premium cotton with perfect drape", season: "Essential", path: "/men/tee" },
                 { name: "Sweater", image: mansweter, desc: "Luxury knits for refined comfort", season: "Autumn-Winter", path: "/men/sweater" },
                 { name: "Woven", image: woven, desc: "Structured shirts with tailored fit", season: "Year-Round", path: "/men/woven" },
                 { name: "Denim Pant", image: Denim, desc: "Engineered denim with premium washes", season: "Iconic", path: "/men/denimpant" },
