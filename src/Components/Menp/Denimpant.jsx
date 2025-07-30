@@ -10,13 +10,13 @@ const Denimpant = () => {
             id: 1,
             name: 'Classic Straight Fit',
             description: 'Mid-blue',
-            image: "/Men_Denim_Pant/2.png"
+            image: "/Men_Tees/1.png"
         },
         {
             id: 2,
             name: 'Slim Fit Jeans',
             description: 'Stretch denim',
-            image: "/Men_Denim_Pant/3.png"
+            image: "/Men_Tees/1.png"
         },
         {
             id: 3,
