@@ -8,6 +8,14 @@
     ],
     "rewrites": [
       {
+        "source": "/Men_Tees/**",
+        "destination": "/Men_Tees/**"
+      },
+      {
+        "source": "/Men_Denim_Pant/**",
+        "destination": "/Men_Denim_Pant/**"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }

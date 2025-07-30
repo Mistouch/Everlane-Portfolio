@@ -10,7 +10,7 @@ const Denimpant = () => {
             id: 1,
             name: 'Classic Straight Fit',
             description: 'Mid-blue',
-            image: "/Check/ck.png"
+            image:  "/Men_Tees/men_pant_1.png"
         },
         {
             id: 2,
