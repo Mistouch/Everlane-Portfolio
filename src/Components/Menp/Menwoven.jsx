@@ -11,75 +11,75 @@ const Menwoven = () => {
             id: 1,
             name: 'Linen Camp Shirt',
             description: 'Breathable 100% linen summer shirt',
-            image: "/Images/men_woven_1.png"
+            image: "/Images/men_woven_1.webp"
         },
         {
             id: 2,
             name: 'Chambray Workshirt',
             description: 'Durable cotton chambray workshirt',
-            image:  "/Images/men_woven_2.png"
+            image:  "/Images/men_woven_2.webp"
         },
         {
             id: 3,
             name: 'Denim Western Shirt',
             description: 'Classic denim shirt with pearl snaps',
-            image:  "/Images/men_woven_3.png"
+            image:  "/Images/men_woven_3.webp"
         },
         {
             id: 4,
             name: 'Seersucker Shirt',
             description: 'Lightweight puckered cotton shirt',
-            image: "/Images/men_woven_4.png"
+            image: "/Images/men_woven_4.webp"
         },
         {
             id: 5,
             name: 'Oxford Button-Down',
             description: 'Crisp cotton oxford dress shirt',
-            image:  "/Images/men_woven_5.png"
+            image:  "/Images/men_woven_5.webp"
         },
         {
             id: 6,
             name: 'Herringbone Tunic',
             description: 'Wool-blend herringbone pattern tunic',
-            image:  "/Images/men_woven_6.png"
+            image:  "/Images/men_woven_6.webp"
         },
         {
             id: 7,
             name: 'Loom & Line',
             description: 'Timeless weave, modern style.',
-            image:  "/Images/men_woven_7.png"
+            image:  "/Images/men_woven_7.webp"
         },
 
         {
             id: 9,
             name: 'Barong Tagalog',
             description: 'Filipino formal embroidered shirt',
-            image:  "/Images/men_woven_9.png"
+            image:  "/Images/men_woven_9.webp"
         },
         {
             id: 10,
             name: 'Guayabera Shirt',
             description: 'Cuban-style pleated linen shirt',
-            image: "/Images/men_woven_10.png"
+            image: "/Images/men_woven_10.webp"
         },
 
         {
             id: 13,
             name: 'Band Collar Shirt',
             description: 'Modern Mandarin collar shirt',
-            image: "/Images/men_woven_13.png"
+            image: "/Images/men_woven_13.webp"
         },
         {
             id: 14,
             name: 'Twill Overshirt',
             description: 'Structured cotton-twill overshirt',
-            image:  "/Images/men_woven_14.png"
+            image:  "/Images/men_woven_14.webp"
         },
         {
             id: 15,
             name: 'Jacquard Shirt',
             description: 'Ornate woven jacquard pattern shirt',
-            image:  "/Images/men_woven_15.png"
+            image:  "/Images/men_woven_15.webp"
         }
     ];
 

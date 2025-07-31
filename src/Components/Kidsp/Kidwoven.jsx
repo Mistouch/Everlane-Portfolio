@@ -8,17 +8,17 @@ const Kidwoven = () => {
 
     // Sample kids woven products data with prices added
     const kidWovens = [
-        { id: 1, name: "Denim Overalls", color: "Blue", type: "Overalls",  image: "/Images/k_woven_1.png" },
-        { id: 2, name: "Plaid Shirt", color: "Red/Black", type: "Shirt",  image: "/Images/k_woven_2.png" },
-        { id: 8, name: "Twill Jumper", color: "Navy", type: "Jumper",  image: "/Images/k_woven_3.png" },
-        { id: 3, name: "Khaki Shorts", color: "Beige", type: "Shorts", image: "/Images/k_woven_4.png" },
-        { id: 4, name: "Denim Jacket", color: "Light Blue", type: "Jacket",  image: "/Images/k_woven_5.png" },
-        { id: 5, name: "Checked Dress", color: "Yellow/White", type: "Dress",  image:"/Images/k_woven_6.png" },
-        { id: 6, name: "Corduroy Pants", color: "Brown", type: "Pants",  image: "/Images/k_woven_7.png" },
-        { id: 7, name: "Linen Shirt", color: "White", type: "Shirt",  image: "/Images/k_woven_8.png" },
+        { id: 1, name: "Denim Overalls", color: "Blue", type: "Overalls",  image: "/Images/k_woven_1.webp" },
+        { id: 2, name: "Plaid Shirt", color: "Red/Black", type: "Shirt",  image: "/Images/k_woven_2.webp" },
+        { id: 8, name: "Twill Jumper", color: "Navy", type: "Jumper",  image: "/Images/k_woven_3.webp" },
+        { id: 3, name: "Khaki Shorts", color: "Beige", type: "Shorts", image: "/Images/k_woven_4.webp" },
+        { id: 4, name: "Denim Jacket", color: "Light Blue", type: "Jacket",  image: "/Images/k_woven_5.webp" },
+        { id: 5, name: "Checked Dress", color: "Yellow/White", type: "Dress",  image:"/Images/k_woven_6.webp" },
+        { id: 6, name: "Corduroy Pants", color: "Brown", type: "Pants",  image: "/Images/k_woven_7.webp" },
+        { id: 7, name: "Linen Shirt", color: "White", type: "Shirt",  image: "/Images/k_woven_8.webp" },
 
-        { id: 9, name: "Chambray Shirt", color: "Light Blue", type: "Shirt", image: "/Images/k_woven_9.png" },
-        { id: 10, name: "Denim Skirt", color: "Dark Blue", type: "Skirt",  image: "/Images/k_woven_10.png" }
+        { id: 9, name: "Chambray Shirt", color: "Light Blue", type: "Shirt", image: "/Images/k_woven_9.webp" },
+        { id: 10, name: "Denim Skirt", color: "Dark Blue", type: "Skirt",  image: "/Images/k_woven_10.webp" }
     ];
 
     return (

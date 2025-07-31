@@ -1,38 +1,6 @@
 import React from "react";
 import "./Trim.css";
 import Footer from "../Footerr/Footer,jsx";
-import print_label from '../Trim_Pic/p_l.png'
-import wl from '../Trim_Pic/wl.png'
-import htl from '../Trim_Pic/htl.png'
-import hgtg from '../Trim_Pic/wl.png'
-import as from '../Trim_Pic/as.png'
-import pc from '../Trim_Pic/pc.png'
-import elastic from '../Trim_Pic/elastic.png'
-import dc from '../Trim_Pic/drowcode.png'
-import scr from '../Trim_Pic/scr.png'
-import tt from '../Trim_Pic/tt.png'
-import ds from '../Trim_Pic/ds.png'
-import we from '../Trim_Pic/we.png'
-import gt from '../Trim_Pic/Acessories/gum_tape.png'
-import btn from '../Trim_Pic/Acessories/button.png'
-import poly from '../Trim_Pic/Acessories/poly.png'
-import hanl from '../Trim_Pic/Acessories/Hangerloop.png'
-import mob_t from '../Trim_Pic/Acessories/mobilon_tape.png'
-import slca from '../Trim_Pic/Acessories/silica.png'
-import elt from '../Trim_Pic/Acessories/eliet.png'
-import nb from '../Trim_Pic/Acessories/neck_bord.png'
-import tlp from '../Trim_Pic/Acessories/tag_loc_pin.png'
-import bb from '../Trim_Pic/Acessories/back_bord.png'
-import tp from '../Trim_Pic/Acessories/tissue_paper.png'
-import lp from '../Trim_Pic/Acessories/leatehr_patch.png'
-import mf from '../Trim_Pic/Acessories/mesh_feb.png'
-import stp from '../Trim_Pic/Acessories/stoper.png'
-import cs from '../Trim_Pic/Acessories/collar_stay.png'
-import cb from '../Trim_Pic/Acessories/collar_band.png'
-import btf from '../Trim_Pic/Acessories/butterfly.png'
-import vt from '../Trim_Pic/Acessories/vecro_tape.png'
-import ppc from '../Trim_Pic/Acessories/poping_cord.png'
-import str from '../Trim_Pic/Acessories/strings.png'
 const Trim = () => {
 
     // Company logos data
@@ -75,54 +43,54 @@ const Trim = () => {
         {
             title: "Labels",
             items: [
-                { name: "Printed Labels", image: "/Images/p_l.png" },
-                { name: "Woven Labels", image:  "/Images/wl.png" },
-                { name: "Heat Transfer Labels", image:  "/Images/htl.png"}
+                { name: "Printed Labels", image: "/Images/p_l.webp" },
+                { name: "Woven Labels", image:  "/Images/wl.webp" },
+                { name: "Heat Transfer Labels", image:  "/Images/htl.webp"}
             ]
         },
         {
             title: "Offset Printing",
             items: [
-                { name: "Hangtags", image:  "/Images/hgtg.png" },
-                { name: "Adhesive Stickers", image:  "/Images/as.png" },
-                { name: "Photo Cards", image:  "/Images/pc.png" }
+                { name: "Hangtags", image:  "/Images/hgtg.webp" },
+                { name: "Adhesive Stickers", image:  "/Images/as.webp" },
+                { name: "Photo Cards", image:  "/Images/pc.webp" }
             ]
         },
         {
             title: "Twill Tape & Elastic",
             items: [
-                { name: "Elastic", image:  "/Images/elastic.png" },
-                { name: "Drawcord", image: "/Images/drowcode.png" },
-                { name: "Satin & Cotton Ribbon", image: "/Images/scr.png" },
-                { name: "Twill Tape", image:  "/Images/tt.png"},
-                { name: "Drawstring", image:  "/Images/ds.png" },
-                { name: "Woven Elastic", image:  "/Images/we.png" }
+                { name: "Elastic", image:  "/Images/elastic.webp" },
+                { name: "Drawcord", image: "/Images/drowcode.webp" },
+                { name: "Satin & Cotton Ribbon", image: "/Images/scr.webp" },
+                { name: "Twill Tape", image:  "/Images/tt.webp"},
+                { name: "Drawstring", image:  "/Images/ds.webp" },
+                { name: "Woven Elastic", image:  "/Images/we.webp" }
             ]
         },
         {
             title: "Accessories",
             items: [
-                { name: "Gum Tape", image:  "/Images/gum_tape.png" },
-                { name: "Button", image:  "/Images/button.png"},
-                { name: "Poly", image:  "/Images/poly.png" },
-                { name: "Hanger Loop", image:  "/Images/Hangerloop.png" },
-                { name: "Mobilon Tape", image:  "/Images/mobilon_tape.png" },
-                { name: "Silica Gel", image: "/Images/silica.png" },
-                { name: "Super Dry", image:  "/Images/eliet.png" },
-                { name: "Eyelet", image:  "/Images/eliet.png" },
-                { name: "Neck Board", image:  "/Images/neck_bord.png" },
-                { name: "Tag/Lock Pin", image:  "/Images/tag_loc_pin.png"},
-                { name: "Back Board", image:  "/Images/back_bord.png" },
-                { name: "Tissue Paper", image:  "/Images/tissue_paper.png" },
-                { name: "Leather Patch", image:  "/Images/leatehr_patch.png" },
-                { name: "Mash Fabrics", image:  "/Images/mesh_feb.png" },
-                { name: "Stopper", image:  "/Images/stoper.png" },
-                { name: "Collar Stay", image:  "/Images/collar_stay.png" },
-                { name: "Collar Band", image:  "/Images/collar_band.png" },
-                { name: "Butterfly", image:  "/Images/butterfly.png" },
-                { name: "Velcro Tape", image:  "/Images/vecro_tape.png" },
-                { name: "Piping Cord", image:  "/Images/poping_cord.png" },
-                { name: "Strings", image:  "/Images/strings.png" }
+                { name: "Gum Tape", image:  "/Images/gum_tape.webp" },
+                { name: "Button", image:  "/Images/button.webp"},
+                { name: "Poly", image:  "/Images/poly.webp" },
+                { name: "Hanger Loop", image:  "/Images/Hangerloop.webp" },
+                { name: "Mobilon Tape", image:  "/Images/mobilon_tape.webp" },
+                { name: "Silica Gel", image: "/Images/silica.webp" },
+                { name: "Super Dry", image:  "/Images/eliet.webp" },
+                { name: "Eyelet", image:  "/Images/eliet.webp" },
+                { name: "Neck Board", image:  "/Images/neck_bord.webp" },
+                { name: "Tag/Lock Pin", image:  "/Images/tag_loc_pin.webp"},
+                { name: "Back Board", image:  "/Images/back_bord.webp" },
+                { name: "Tissue Paper", image:  "/Images/tissue_paper.webp" },
+                { name: "Leather Patch", image:  "/Images/leatehr_patch.webp" },
+                { name: "Mash Fabrics", image:  "/Images/mesh_feb.webp" },
+                { name: "Stopper", image:  "/Images/stoper.webp" },
+                { name: "Collar Stay", image:  "/Images/collar_stay.webp" },
+                { name: "Collar Band", image:  "/Images/collar_band.webp" },
+                { name: "Butterfly", image:  "/Images/butterfly.webp" },
+                { name: "Velcro Tape", image:  "/Images/vecro_tape.webp" },
+                { name: "Piping Cord", image:  "/Images/poping_cord.webp" },
+                { name: "Strings", image:  "/Images/strings.webp" }
             ]
         }
     ];
@@ -180,7 +148,7 @@ const Trim = () => {
                                     className="brand-logo"
                                     onError={(e) => {
                                         e.target.onerror = null;
-                                        e.target.src = '/fallback-logo.png';
+                                        e.target.src = '/fallback-logo.webp';
                                     }}
                                 />
                                 <span className="brand-name">{company.name}</span>

@@ -9,16 +9,16 @@ const Womenlingerie = () => {
 
     // Women's lingerie data
     const lingerieItems = [
-        { id: 1, name: "Lace Bralette Set", color: "Black", type: "Bra & Panty Set", image: "/Images/w_lingerie_1.png"},
-        { id: 2, name: "Silk Chemise", color: "Black", type: "Nightwear", image: "/Images/w_lingerie_2.png" },
-        { id: 3, name: "Push-Up Bra", color: "Nude", type: "Underwire Bra", image: "/Images/w_lingerie_3.png" },
-        { id: 4, name: "High-Waist Briefs", color: "Burgundy", type: "Panties", image: "/Images/w_lingerie_4.png"},
-        { id: 5, name: "Bodysuit", color: "Navy", type: "Shapewear", image: "/Images/w_lingerie_5.png" },
-        { id: 6, name: "Babydoll Set", color: "Blush Pink", type: "Sleepwear Set", image: "/Images/w_lingerie_6.png" },
-        { id: 7, name: "Sports Bra", color: "Gray", type: "Activewear", image: "/Images/w_lingerie_7.png"},
-        { id: 8, name: "Thong Panties", color: "Red", type: "Underwear", image: "/Images/w_lingerie_8.png" },
-        { id: 9, name: "Teddies", color: "Emerald", type: "One-Piece", image: "/Images/w_lingerie_9.png" },
-        { id: 10, name: "Robes", color: "White", type: "Cover-up", image: "/Images/w_lingerie_10.png" }
+        { id: 1, name: "Lace Bralette Set", color: "Black", type: "Bra & Panty Set", image: "/Images/w_lingerie_1.webp"},
+        { id: 2, name: "Silk Chemise", color: "Black", type: "Nightwear", image: "/Images/w_lingerie_2.webp" },
+        { id: 3, name: "Push-Up Bra", color: "Nude", type: "Underwire Bra", image: "/Images/w_lingerie_3.webp" },
+        { id: 4, name: "High-Waist Briefs", color: "Burgundy", type: "Panties", image: "/Images/w_lingerie_4.webp"},
+        { id: 5, name: "Bodysuit", color: "Navy", type: "Shapewear", image: "/Images/w_lingerie_5.webp" },
+        { id: 6, name: "Babydoll Set", color: "Blush Pink", type: "Sleepwear Set", image: "/Images/w_lingerie_6.webp" },
+        { id: 7, name: "Sports Bra", color: "Gray", type: "Activewear", image: "/Images/w_lingerie_7.webp"},
+        { id: 8, name: "Thong Panties", color: "Red", type: "Underwear", image: "/Images/w_lingerie_8.webp" },
+        { id: 9, name: "Teddies", color: "Emerald", type: "One-Piece", image: "/Images/w_lingerie_9.webp" },
+        { id: 10, name: "Robes", color: "White", type: "Cover-up", image: "/Images/w_lingerie_10.webp" }
     ];
 
     return (

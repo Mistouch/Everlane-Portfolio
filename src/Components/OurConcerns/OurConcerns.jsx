@@ -1,12 +1,5 @@
 import React from "react";
 import "./OurConcerns.css";
-
-// Import images
-import empowermentImg from '../Concern_img/wom_em.png';
-import businessImg from '../Concern_img/En_gr.png'
-import ecoImg from '../Concern_img/eco.png'
-import communityImg from '../Concern_img/tranperency.png'
-import customerImg from '../Concern_img/cou_com.png'
 import Footer from "../Footerr/Footer,jsx";
 
 const OurConcerns = () => {
@@ -15,31 +8,31 @@ const OurConcerns = () => {
             title: "Women Empowerment",
             aim: "We aim to create equal opportunities",
             description: "Through leadership programs and skill development initiatives, we're breaking barriers for women across all sectors of society. Our mentorship networks and financial literacy programs help women achieve economic independence.",
-            image: empowermentImg,
             color: "#8e44ad",
+            image : "Images/women_em.webp",
             icon: "♀️"
         },
         {
             title: "Entrepreneurial Growth",
             aim: "We aim to fuel innovative businesses",
             description: "Our incubator programs provide funding, workspace, and expert guidance to help new ventures thrive. We connect startups with industry leaders and investors to scale their operations.",
-            image: businessImg,
             color: "#3498db",
+            image : "Images/En_gro.webp",
             icon: "💼"
         },
         {
             title: "Environmental Stewardship",
             aim: "We aim to protect our planet",
             description: "From sustainable manufacturing to eco-friendly packaging solutions, we're reducing our environmental impact. Our initiatives promote renewable energy and responsible resource management.",
-            image: ecoImg,
             color: "#27ae60",
+            image: "Images/env1.webp",
             icon: "🌎"
         },
         {
             title: "Transparent Operations",
             aim: "We aim to build complete trust",
             description: "Through open communication and ethical business practices, we maintain accountability at every level. Our supply chain transparency initiatives set new industry standards.",
-            image: "Images/k_tee_3.png",
+            image: "Images/transpar.webp",
             color: "#f39c12",
             icon: "🔍"
         },
@@ -47,7 +40,7 @@ const OurConcerns = () => {
             title: "Community Development",
             aim: "We aim to strengthen communities",
             description: "By partnering with local organizations, we support education, healthcare, and cultural preservation. Our programs create jobs and improve quality of life in underserved areas.",
-            image: communityImg,
+            image: "Images/community.webp",
             color: "#e74c3c",
             icon: "🏘️"
         },
@@ -55,7 +48,7 @@ const OurConcerns = () => {
             title: "Customer Commitment",
             aim: "We aim to exceed expectations",
             description: "Every product undergoes rigorous quality testing to ensure exceptional standards. Our customer service team provides personalized support throughout your experience with us.",
-            image: customerImg,
+            image: "Images/cous_com.webp",
             color: "#34495e",
             icon: "🤝"
         }

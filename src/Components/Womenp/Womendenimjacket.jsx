@@ -8,16 +8,16 @@ const Womendenimjacket = () => {
 
     // Women's denim jacket data
     const denimJackets = [
-        { id: 1, name: "CLASSIC DENIM JACKET", color: "Medium Wash", fit: "Regular", image: "/Images/w_denim_jack_1.png" },
-        { id: 2, name: "OVERSIZED DENIM JACKET", color: "Light Wash", fit: "Loose", image: "/Images/w_denim_jack_2.png" },
-        { id: 3, name: "CROPPED DENIM JACKET", color: "Black", fit: "Short", image: "/Images/w_denim_jack_3.png"},
-        { id: 4, name: "DISTRESSED DENIM JACKET", color: "Dark Wash", fit: "Slim", image: "/Images/w_denim_jack_4.png" },
-        { id: 5, name: "EMBROIDERED DENIM JACKET", color: "Light Blue", fit: "Regular", image: "/Images/w_denim_jack_5.png" },
-        { id: 6, name: "SHERPA-LINED JACKET", color: "Medium Wash", fit: "Regular", image: "/Images/w_denim_jack_6.png" },
-        { id: 7, name: "ACID WASH JACKET", color: "Vintage Wash", fit: "Regular", image: "/Images/w_denim_jack_7.png" },
-        { id: 8, name: "BELTED DENIM JACKET", color: "White", fit: "Fitted", image:"/Images/w_denim_jack_8.png" },
-        { id: 9, name: "PATCHWORK DENIM JACKET", color: "Multi-Color", fit: "Regular", image: "/Images/w_denim_jack_9.png" },
-        { id: 10, name: "TRUCKER DENIM JACKET", color: "Dark Indigo", fit: "Classic", image: "/Images/w_denim_jack_10.png" }
+        { id: 1, name: "CLASSIC DENIM JACKET", color: "Medium Wash", fit: "Regular", image: "/Images/w_denim_jack_1.webp" },
+        { id: 2, name: "OVERSIZED DENIM JACKET", color: "Light Wash", fit: "Loose", image: "/Images/w_denim_jack_2.webp" },
+        { id: 3, name: "CROPPED DENIM JACKET", color: "Black", fit: "Short", image: "/Images/w_denim_jack_3.webp"},
+        { id: 4, name: "DISTRESSED DENIM JACKET", color: "Dark Wash", fit: "Slim", image: "/Images/w_denim_jack_4.webp" },
+        { id: 5, name: "EMBROIDERED DENIM JACKET", color: "Light Blue", fit: "Regular", image: "/Images/w_denim_jack_5.webp" },
+        { id: 6, name: "SHERPA-LINED JACKET", color: "Medium Wash", fit: "Regular", image: "/Images/w_denim_jack_6.webp" },
+        { id: 7, name: "ACID WASH JACKET", color: "Vintage Wash", fit: "Regular", image: "/Images/w_denim_jack_7.webp" },
+        { id: 8, name: "BELTED DENIM JACKET", color: "White", fit: "Fitted", image:"/Images/w_denim_jack_8.webp" },
+        { id: 9, name: "PATCHWORK DENIM JACKET", color: "Multi-Color", fit: "Regular", image: "/Images/w_denim_jack_9.webp" },
+        { id: 10, name: "TRUCKER DENIM JACKET", color: "Dark Indigo", fit: "Classic", image: "/Images/w_denim_jack_10.webp" }
     ];
 
     return (

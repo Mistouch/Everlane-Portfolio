@@ -7,16 +7,16 @@ const Womendenimpant = () => {
     const navigate = useNavigate();
 
     const denimPants = [
-        { id: 1, name: "SKINNY FIT JEANS", color: "DARK WASH" ,image:  "/Images/w_denim_pant_1.png"},
-        { id: 2, name: "MOM JEANS", color: "MEDIUM WASH", image: "/Images/w_denim_pant_2.png" },
-        { id: 3, name: "BOOTCUT JEANS", color: "BLACK",image: "/Images/w_denim_pant_3.png" },
-        { id: 4, name: "FLARED JEANS", color: "LIGHT WASH", image: "/Images/w_denim_pant_4.png" },
-        { id: 5, name: "STRAIGHT LEG JEANS", color: "Dark Blue", image: "/Images/w_denim_pant_5.png" },
-        { id: 6, name: "BOYFRIEND JEANS", color: "DISTRESSED", image: "/Images/w_denim_pant_6.png"},
-        { id: 7, name: "HIGH WAISTED JEANS", color: "WHITE", image: "/Images/w_denim_pant_7.png" },
-        { id: 8, name: "CROPPED JEANS", color: "GRAY", image:"/Images/w_denim_pant_8.png" },
-        { id: 9, name: "WIDE LEG JEANS", color: "SKY BLUE", image: "/Images/w_denim_pant_9.png" },
-        { id: 10, name: "JEGGINGS", color: "Light Gray", image: "/Images/w_denim_pant_10.png"}
+        { id: 1, name: "SKINNY FIT JEANS", color: "DARK WASH" ,image:  "/Images/w_denim_pant_1.webp"},
+        { id: 2, name: "MOM JEANS", color: "MEDIUM WASH", image: "/Images/w_denim_pant_2.webp" },
+        { id: 3, name: "BOOTCUT JEANS", color: "BLACK",image: "/Images/w_denim_pant_3.webp" },
+        { id: 4, name: "FLARED JEANS", color: "LIGHT WASH", image: "/Images/w_denim_pant_4.webp" },
+        { id: 5, name: "STRAIGHT LEG JEANS", color: "Dark Blue", image: "/Images/w_denim_pant_5.webp" },
+        { id: 6, name: "BOYFRIEND JEANS", color: "DISTRESSED", image: "/Images/w_denim_pant_6.webp"},
+        { id: 7, name: "HIGH WAISTED JEANS", color: "WHITE", image: "/Images/w_denim_pant_7.webp" },
+        { id: 8, name: "CROPPED JEANS", color: "GRAY", image:"/Images/w_denim_pant_8.webp" },
+        { id: 9, name: "WIDE LEG JEANS", color: "SKY BLUE", image: "/Images/w_denim_pant_9.webp" },
+        { id: 10, name: "JEGGINGS", color: "Light Gray", image: "/Images/w_denim_pant_10.webp"}
     ];
 
     return (

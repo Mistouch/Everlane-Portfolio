@@ -8,16 +8,16 @@ const Kidshirt = () => {
 
     // Sample kids t-shirt data
     const kidsShirts = [
-        { id: 1, name: "Colorful Dinosaur Tee", color: "Multicolor", image: "/Images/k_tee_1.png" },
-        { id: 2, name: "Space Adventure Shirt", color: "Black", image: "/Images/k_tee_2.png"},
-        { id: 5, name: "Animal Friends Shirt", color: "Green", image: "/Images/k_tee_5.png" },
-        { id: 3, name: "Unicorn Magic Top", color: "Pink", image:"/Images/k_tee_3.png" },
-        { id: 4, name: "Superhero Logo Tee", color: "Red", image: "/Images/k_tee_4.png" },
-        { id: 6, name: "Stripes Tee", color: "Green/white", image: "/Images/k_tee_6.png"},
-        { id: 7, name: "Sports Fan Top", color: "White", image: "/Images/k_tee_7.png" },
-        { id: 8, name: "Romper Jumpsuit", color: "Khaki", image: "/Images/k_tee_8.png" },
-        { id: 9, name: "Cartoon Character Tee", color: "Yellow", image: "/Images/k_tee_9.png" },
-        { id: 10, name: "Butterfly Print Top", color: "Purple", image:"/Images/k_tee_10.png" }
+        { id: 1, name: "Colorful Dinosaur Tee", color: "Multicolor", image: "/Images/k_tee_1.webp" },
+        { id: 2, name: "Space Adventure Shirt", color: "Black", image: "/Images/k_tee_2.webp"},
+        { id: 5, name: "Animal Friends Shirt", color: "Green", image: "/Images/k_tee_5.webp" },
+        { id: 3, name: "Unicorn Magic Top", color: "Pink", image:"/Images/k_tee_3.webp" },
+        { id: 4, name: "Superhero Logo Tee", color: "Red", image: "/Images/k_tee_4.webp" },
+        { id: 6, name: "Stripes Tee", color: "Green/white", image: "/Images/k_tee_6.webp"},
+        { id: 7, name: "Sports Fan Top", color: "White", image: "/Images/k_tee_7.webp" },
+        { id: 8, name: "Romper Jumpsuit", color: "Khaki", image: "/Images/k_tee_8.webp" },
+        { id: 9, name: "Cartoon Character Tee", color: "Yellow", image: "/Images/k_tee_9.webp" },
+        { id: 10, name: "Butterfly Print Top", color: "Purple", image:"/Images/k_tee_10.webp" }
     ];
 
     return (

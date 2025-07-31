@@ -11,85 +11,85 @@ const Handcraft = () => {
             id: 1,
             name: 'Jute Plate',
             description: 'Authentic Jute Plate',
-            image: "/Images/jute_plate.png"
+            image: "/Images/jute_plate.webp"
         },
         {
             id: 2,
             name: 'Jute Basket',
             description: 'Traditional style jute basket',
-            image: "/Images/jute_busket.png"
+            image: "/Images/jute_busket.webp"
         },
         {
             id: 3,
             name: 'Jute Wallmat',
-            description: "/Images/jute_3.png",
-            image: "/Images/jute_3.png"
+            description: "/Images/jute_3.webp",
+            image: "/Images/jute_3.webp"
         },
         {
             id: 4,
             name: 'Jute Hat',
             description: 'Traditional jute hat',
-            image : "/Images/jute_4.png"
+            image : "/Images/jute_4.webp"
         },
         {
             id: 5,
             name: 'Jute Bag',
             description: 'Eco-friendly jute shopping bag',
-            image: "/Images/jute_5.png"
+            image: "/Images/jute_5.webp"
         },
         {
             id: 6,
             name: 'Jute Footmat',
             description: 'Jute-made foot mat',
-            image: "/Images/jute_6.png"
+            image: "/Images/jute_6.webp"
         },
         {
             id: 7,
             name: 'Jute Curtain',
             description: 'Handwoven jute thread curtain',
-            image: "/Images/jute_7.png"
+            image: "/Images/jute_7.webp"
         },
         {
             id: 8,
             name: 'Jute Flowerpot',
-            description:"/Images/jute_8png",
-            image: "/Images/jute_8.png"
+            description:"/Images/jute_8webp",
+            image: "/Images/jute_8.webp"
         },
         {
             id: 9,
             name: 'Jute Tablemat',
             description: 'Jute-made table decoration mat',
-            image: "/Images/jute_9.png"
+            image: "/Images/jute_9.webp"
         },
         {
             id: 11,
             name: 'Jute Pen Holder',
             description: 'Jute-made pen holder',
-            image: "/Images/jute_11.png"
+            image: "/Images/jute_11.webp"
         },
         {
             id: 12,
             name: 'Jute Bookmark',
             description: 'Bookmark made from jute thread',
-            image: "/Images/jute_12.png"
+            image: "/Images/jute_12.webp"
         },
         {
             id: 13,
             name: 'Jute Photo Frame',
             description: 'Jute-made photo frame',
-            image: "/Images/jute_13.png"
+            image: "/Images/jute_13.webp"
         },
         {
             id: 14,
             name: 'Jute Tray',
             description: 'Jute-made serving tray',
-            image: "/Images/jute_14.png"
+            image: "/Images/jute_14.webp"
         },
         {
             id: 15,
             name: 'Jute Sandals',
             description: 'Comfortable jute-made sandals',
-            image: "/Images/jute_15.png"
+            image: "/Images/jute_15.webp"
         }
     ];
 

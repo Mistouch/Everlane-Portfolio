@@ -7,16 +7,16 @@ const Womenblazers = () => {
 
     // Women's blazers data
     const blazers = [
-        { id: 1, name: "CLASSIC BLACK BLAZER", color: "Black", image: "/Images/w_blazer_1.png" },
-        { id: 2, name: "DOUBLE-BREASTED TWEED", color: "Beige/Black", image: "/Images/w_blazer_2.png" },
-        { id: 3, name: "OVERSIZED WHITE BLAZER", color: "White", image: "/Images/w_blazer_3.png" },
-        { id: 4, name: "TAILORED NAVY SUIT JACKET", color: "Navy", image: "/Images/w_blazer_4.png" },
-        { id: 5, name: "BELTED CHECKERED BLAZER", color: "Gray", image: "/Images/w_blazer_5.png" },
-        { id: 6, name: "CROPPED LEATHER JACKET", color: "Black", image: "/Images/w_blazer_6.png"},
-        { id: 7, name: "LIGHTWEIGHT LINEN BLAZER", color: "Light Gray", image: "/Images/w_blazer_7.png" },
-        { id: 8, name: "STRUCTURED SHOULDER BLAZER", color: "Camel", image: "/Images/w_blazer_8.png" },
-        { id: 9, name: "SATIN LAPEL TUXEDO JACKET", color: "Black", image: "/Images/w_blazer_9.png" },
-        { id: 10, name: "PASTEL PINK BLAZER", color: "Dusty Pink", image: "/Images/w_blazer_10.png" }
+        { id: 1, name: "CLASSIC BLACK BLAZER", color: "Black", image: "/Images/w_blazer_1.webp" },
+        { id: 2, name: "DOUBLE-BREASTED TWEED", color: "Beige/Black", image: "/Images/w_blazer_2.webp" },
+        { id: 3, name: "OVERSIZED WHITE BLAZER", color: "White", image: "/Images/w_blazer_3.webp" },
+        { id: 4, name: "TAILORED NAVY SUIT JACKET", color: "Navy", image: "/Images/w_blazer_4.webp" },
+        { id: 5, name: "BELTED CHECKERED BLAZER", color: "Gray", image: "/Images/w_blazer_5.webp" },
+        { id: 6, name: "CROPPED LEATHER JACKET", color: "Black", image: "/Images/w_blazer_6.webp"},
+        { id: 7, name: "LIGHTWEIGHT LINEN BLAZER", color: "Light Gray", image: "/Images/w_blazer_7.webp" },
+        { id: 8, name: "STRUCTURED SHOULDER BLAZER", color: "Camel", image: "/Images/w_blazer_8.webp" },
+        { id: 9, name: "SATIN LAPEL TUXEDO JACKET", color: "Black", image: "/Images/w_blazer_9.webp" },
+        { id: 10, name: "PASTEL PINK BLAZER", color: "Dusty Pink", image: "/Images/w_blazer_10.webp" }
     ];
 
     return (

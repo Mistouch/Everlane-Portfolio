@@ -9,73 +9,73 @@ const Womenshoe = () => {
             id: 1,
             name: 'Leather ankle boots',
             color: 'Black',
-            image: "/Images/w_shoe_1.png"
+            image: "/Images/w_shoe_1.webp"
         },
         {
             id: 2,
             name: 'Stiletto pumps',
             color: 'Navy blue',
-            image: "/Images/w_shoe_2.png"
+            image: "/Images/w_shoe_2.webp"
         },
         {
             id: 3,
             name: 'White sneakers',
             color: 'White',
-            image: "/Images/w_shoe_3.png"
+            image: "/Images/w_shoe_3.webp"
         },
         {
             id: 4,
             name: 'Tassel loafers',
             color: 'Brown',
-            image: "/Images/w_shoe_4.png"
+            image: "/Images/w_shoe_4.webp"
         },
         {
             id: 5,
             name: 'Slide sandals',
             color: 'Tan',
-            image: "/Images/w_shoe_5.png"
+            image: "/Images/w_shoe_5.webp"
         },
         {
             id: 6,
             name: 'Combat boots',
             color: 'Black',
-            image: "/Images/w_shoe_6.png"
+            image: "/Images/w_shoe_6.webp"
         },
         {
             id: 7,
             name: 'Ballet flats',
             color: 'Blush pink',
-            image: "/Images/w_shoe_7.png"
+            image: "/Images/w_shoe_7.webp"
         },
         {
             id: 8,
             name: 'Open-back mules',
             color: 'Cream',
-            image: "/Images/w_shoe_8.png"
+            image: "/Images/w_shoe_8.webp"
         },
         {
             id: 9,
             name: 'Wedge sandals',
             color: 'Natural',
-            image: "/Images/w_shoe_9.png"
+            image: "/Images/w_shoe_9.webp"
         },
         {
             id: 10,
             name: 'Chunky sneakers',
             color: 'White',
-            image: "/Images/w_shoe_10.png"
+            image: "/Images/w_shoe_10.webp"
         },
         {
             id: 11,
             name: 'Pointed flats',
             color: 'Metallic gold',
-            image: "/Images/w_shoe_11.png"
+            image: "/Images/w_shoe_11.webp"
         },
         {
             id: 12,
             name: 'Knee high boots',
             color: 'Black',
-            image: "/Images/w_shoe_12.png"
+            image: "/Images/w_shoe_12.webp"
         }
     ];
 

@@ -8,16 +8,16 @@ const Kiddenimjacket = () => {
 
     // Sample kids denim jackets data with prices added
     const kidDenimJackets = [
-        { id: 1, name: "Classic Blue Denim Jacket", color: "Light Blue", image: "/Images/k_jacket_1.png" },
-        { id: 2, name: "Distressed Denim Jacket", color: "Medium Blue", image:  "/Images/k_jacket_2.png"},
-        { id: 3, name: "Black Denim Jacket", color: "Black", image:  "/Images/k_jacket_3.png" },
-        { id: 4, name: "Embroidered Denim Jacket", color: "Light Wash", image:  "/Images/k_jacket_4.png" },
-        { id: 5, name: "Oversized Denim Jacket", color: "Dark Blue",image: "/Images/k_jacket_5.png"},
-        { id: 6, name: "Acid Wash Denim Jacket", color: "Grey Wash", image:  "/Images/k_jacket_6.png"},
-        { id: 7, name: "Cropped Denim Jacket", color: "Medium Blue",  image:  "/Images/k_jacket_7.png" },
-        { id: 8, name: "Pink Denim Jacket", color: "Pink", image:  "/Images/k_jacket_8.png" },
-        { id: 9, name: "Patched Denim Jacket", color: "Dark Wash", image:  "/Images/k_jacket_9.png" },
-        { id: 10, name: "Faded Denim Jacket", color: "Vintage Blue",  image:  "/Images/k_jacket_10.png" }
+        { id: 1, name: "Classic Blue Denim Jacket", color: "Light Blue", image: "/Images/k_jacket_1.webp" },
+        { id: 2, name: "Distressed Denim Jacket", color: "Medium Blue", image:  "/Images/k_jacket_2.webp"},
+        { id: 3, name: "Black Denim Jacket", color: "Black", image:  "/Images/k_jacket_3.webp" },
+        { id: 4, name: "Embroidered Denim Jacket", color: "Light Wash", image:  "/Images/k_jacket_4.webp" },
+        { id: 5, name: "Oversized Denim Jacket", color: "Dark Blue",image: "/Images/k_jacket_5.webp"},
+        { id: 6, name: "Acid Wash Denim Jacket", color: "Grey Wash", image:  "/Images/k_jacket_6.webp"},
+        { id: 7, name: "Cropped Denim Jacket", color: "Medium Blue",  image:  "/Images/k_jacket_7.webp" },
+        { id: 8, name: "Pink Denim Jacket", color: "Pink", image:  "/Images/k_jacket_8.webp" },
+        { id: 9, name: "Patched Denim Jacket", color: "Dark Wash", image:  "/Images/k_jacket_9.webp" },
+        { id: 10, name: "Faded Denim Jacket", color: "Vintage Blue",  image:  "/Images/k_jacket_10.webp" }
     ];
 
     return (
