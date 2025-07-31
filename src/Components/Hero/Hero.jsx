@@ -75,7 +75,7 @@ const Hero = () => {
                         playsInline
                         className="hero-video"
                     >
-                        <source src="/video/vid.mp4" type="video/mp4" />
+                        <source src="/video/Vid2.mp4" type="video/mp4" />
                         Your browser does not support this video.
                     </video>
 

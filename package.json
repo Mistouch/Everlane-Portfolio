@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^14.2.1",  // Updated for React 19
+    "@testing-library/react": "^14.2.1",
     "@testing-library/user-event": "^14.5.2",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.23.10",
@@ -45,6 +45,6 @@
     ]
   },
   "devDependencies": {
-    "ffmpeg-static": "^5.3.0"  //
+    "ffmpeg-static": "^5.3.0"
   }
 }
