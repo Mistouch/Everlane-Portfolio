@@ -1,8 +1,6 @@
 import React from "react";
 import './Menwoven.css'; // We'll create this CSS file
 import Footer from "../Footerr/Footer,jsx";
-import no1 from '../Men_woven/1.png'
-import no2 from '../Men_woven/2.png'
 import no3 from '../Men_woven/3.png'
 import no4 from '../Men_woven/4.png'
 import no5 from '../Men_woven/5.png'
@@ -22,13 +20,13 @@ const Menwoven = () => {
             id: 1,
             name: 'Linen Camp Shirt',
             description: 'Breathable 100% linen summer shirt',
-            image:no1
+            image: "https://mobile.yoox.com/images/items/12/12814846JS_14_f.jpg?impolicy=crop&width=387&height=490"
         },
         {
             id: 2,
             name: 'Chambray Workshirt',
             description: 'Durable cotton chambray workshirt',
-            image: no2
+            image: "https://media.gq.com/photos/676096aa3f479088ff5dab4f/3:4/w_748%2Cc_limit/Layer_3-001.jpg"
         },
         {
             id: 3,
