@@ -32,13 +32,6 @@ const Hero = () => {
         { id: 22, name: "TRUTEX", logo: "https://logo.clearbit.com/trutex.com" }
     ];
 
-
-
-// Note: Some brands may not have clearbit logos available. Alternatives:
-// 1. Use local logo images
-// 2. Use other logo API services
-// 3. Find official SVG logos from brand websites
-
     const headingRef = useRef(null);
     const subtitleRefs = useRef([]);
     const videoRef = useRef(null);
@@ -73,6 +66,8 @@ const Hero = () => {
                         loop
                         muted
                         playsInline
+                        preload="metadata"
+                        poster ="Images/proxy_pic.jpg"
                         className="hero-video"
                     >
                         <source src="/video/Vid2.mp4" type="video/mp4" />
