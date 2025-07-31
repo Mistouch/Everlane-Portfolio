@@ -2,16 +2,6 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import './Menshoe.css';
 
-import no1 from '../Men_shoe/1.png'
-import no2 from '../Men_shoe/2.png'
-import no3 from '../Men_shoe/3.png'
-import no4 from '../Men_shoe/4.png'
-import no5 from '../Men_shoe/5.png'
-import no6 from '../Men_shoe/6.png'
-import no7 from '../Men_shoe/7.png'
-import no8 from '../Men_shoe/8.png'
-import no9 from '../Men_shoe/9.png'
-import no10 from '../Men_shoe/10.png'
 const Menshoe = () => {
     const navigate = useNavigate();
 
@@ -21,62 +11,62 @@ const Menshoe = () => {
             id: 1,
             name: 'Leather Derby Shoes',
             color: 'Black',
-            image: no1
+            image: "/Images/men_shoe_1.png"
         },
         {
             id: 2,
             name: 'White Sneakers',
             color: 'White',
-            image: no2
+            image: "/Images/men_shoe_2.png"
         },
         {
             id: 3,
             name: 'Chelsea Boots',
             color: 'Brown',
-            image: no3
+            image: "/Images/men_shoe_3.png"
         },
         {
             id: 4,
             name: 'Running Shoes',
             color: 'Black/White',
-            image: no4
+            image:"/Images/men_shoe_4.png"
         },
         {
             id: 5,
             name: 'Loafers',
             color: 'Burgundy',
-            image: no5
+            image:"/Images/men_shoe_5.png"
         },
 
         {
             id: 7,
             name: 'Oxford Shoes',
             color: 'Dark Brown',
-            image: no7
+            image:"/Images/men_shoe_7.png"
         },
         {
             id: 8,
             name: 'Slip-On Sneakers',
             color: 'Grey',
-            image: no8
+            image:"/Images/men_shoe_8.png"
         },
         {
             id: 6,
             name: 'High-Top Sneakers',
             color: 'Black',
-            image: no6
+            image:"/Images/men_shoe_6.png"
         },
         {
             id: 9,
             name: 'Desert Boots',
             color: 'Tan',
-            image: no9
+            image: "/Images/men_shoe_9.png"
         },
         {
             id: 10,
             name: 'Leather Sandals',
             color: 'Black',
-            image: no10
+            image:"/Images/men_shoe_10.png"
         }
     ];
 

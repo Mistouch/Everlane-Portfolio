@@ -1,20 +1,6 @@
 import react from "react";
 import Footer from "../Footerr/Footer,jsx";
-import no1 from '../Men_Sweater/1.png'
-import no2 from '../Men_Sweater/2.png'
-import no3 from '../Men_Sweater/3.png'
-import no4 from '../Men_Sweater/4.png'
-import no5 from '../Men_Sweater/5.png'
-import no6 from '../Men_Sweater/6.png'
-import no7 from '../Men_Sweater/7.png'
-import no8 from '../Men_Sweater/8.png'
-import no9 from '../Men_Sweater/9.png'
-import no10 from '../Men_Sweater/10.png'
-import no11 from '../Men_Sweater/11.png'
-import no12 from '../Men_Sweater/12.png'
-import no13 from '../Men_Sweater/13.png'
-import no14 from '../Men_Sweater/14.png'
-import no15 from '../Men_Sweater/15.png'
+
 import './Mensweater.css'
 import React from "react";
 import {useNavigate} from "react-router-dom";
@@ -25,91 +11,91 @@ const Men_sweater = () => {
             id: 1,
             name: 'Crewneck Sweater',
             description: 'Classic wool blend crewneck sweater',
-            image: no1
+            image: "/Images/men_sweater_1.png"
         },
         {
             id: 2,
             name: 'V-Neck Sweater',
             description: 'Lightweight merino wool v-neck',
-            image: no2
+            image: "/Images/men_sweater_2.png"
         },
         {
             id: 3,
             name: 'Turtleneck Sweater',
             description: 'Warm cashmere blend turtleneck',
-            image: no3
+            image: "/Images/men_sweater_3.png"
         },
         {
             id: 4,
             name: 'Cardigan Sweater',
             description: 'Button-front cardigan with pockets',
-            image: no4
+            image:"/Images/men_sweater_4.png"
         },
         {
             id: 5,
             name: 'Cable Knit Sweater',
             description: 'Traditional cable knit pattern sweater',
-            image: no5
+            image: "/Images/men_sweater_5.png"
         },
         {
             id: 6,
             name: 'Quarter-Zip Sweater',
             description: 'Performance wool quarter-zip pullover',
-            image: no6
+            image: "/Images/men_sweater_6.png"
         },
         {
             id: 7,
             name: 'Shawl Collar Sweater',
             description: 'Luxurious shawl collar cardigan',
-            image: no7
+            image:"/Images/men_sweater_7.png"
         },
         {
             id: 8,
             name: 'Fisherman Sweater',
             description: 'Chunky knit fisherman sweater',
-            image: no8
+            image:"/Images/men_sweater_8.png"
         },
         {
             id: 9,
             name: 'Cashmere Crewneck',
             description: '100% pure cashmere crewneck',
-            image: no9
+            image:"/Images/men_sweater_9.png"
         },
         {
             id: 10,
             name: 'Wool Blend Hoodie',
             description: 'Warm wool blend hooded sweater',
-            image: no10
+            image: "/Images/men_sweater_10.png"
         },
         {
             id: 11,
             name: 'Alpaca Wool Sweater',
             description: 'Hypoallergenic alpaca wool sweater',
-            image: no11
+            image: "/Images/men_sweater_11.png"
         },
         {
             id: 12,
             name: 'Mock Neck Sweater',
             description: 'Contemporary mock neck design',
-            image: no12
+            image: "/Images/men_sweater_12.png"
         },
         {
             id: 13,
             name: 'Fair Isle Sweater',
             description: 'Traditional Nordic patterned sweater',
-            image: no13
+            image: "/Images/men_sweater_13.png"
         },
         {
             id: 14,
             name: 'Cotton-Cashmere Blend',
             description: 'Lightweight cotton-cashmere mix',
-            image: no14
+            image: "/Images/men_sweater_14.png"
         },
         {
             id: 15,
             name: 'Merino Wool Zip',
             description: 'Performance merino wool zip sweater',
-            image: no15
+            image:"/Images/men_sweater_15.png"
         }
     ];
 

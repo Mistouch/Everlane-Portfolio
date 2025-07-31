@@ -1,7 +1,6 @@
 import React from 'react';
 import './ShoesPage.css';
 import Footer from "../Footerr/Footer,jsx";
-import oxfordImage from '../Assets/oxford.jpeg';
 import {useNavigate} from "react-router-dom";
 
 import Menshoe from "../Menp/Menshoe";

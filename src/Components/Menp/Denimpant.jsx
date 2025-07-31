@@ -10,74 +10,74 @@ const Denimpant = () => {
             id: 1,
             name: 'Classic Straight Fit',
             description: 'Mid-blue',
-            image:   "/Men_Denim_Pant/1.png"
+            image:  "/Images/men_denim_pant_1.png"
         },
         {
             id: 2,
             name: 'Slim Fit Jeans',
             description: 'Stretch denim',
-            image:  "/Men_Denim_Pant/2.png"
+            image:  "/Images/men_denim_pant_2.png"
         },
         {
             id: 3,
             name: 'Relaxed Fit',
             description: 'Loose fit',
-            image: "/Men_Denim_Pant/3.png"
+            image: "/Images/men_denim_pant_3.png"
         },
         {
             id: 4,
             name: 'Black Denim',
             description: 'Washed denim',
-            image: "/Men_Denim_Pant/4.png"
+            image:"/Images/men_denim_pant_4.png"
         },
         {
             id: 5,
             name: 'Vintage Wash',
             description: 'Light distressed',
-            image: "/Men_Denim_Pant/5.png"
+            image:"/Images/men_denim_pant_5.png"
         },
         {
             id: 6,
             name: 'Dark Indigo',
             description: 'Deep indigo',
-            image: "/Men_Denim_Pant/6.png"
+            image: "/Images/men_denim_pant_6.png"
         },
         {
             id: 7,
             name: 'Carpenter Jeans',
             description: 'Tool pockets',
-            image: "/Men_Denim_Pant/7.png"
+            image: "/Images/men_denim_pant_7.png"
         },
         {
             id: 8,
             name: 'Selvedge Denim',
             description: 'Selvedge',
-            image: "/Men_Denim_Pant/8.png"
+            image: "/Images/men_denim_pant_8.png"
         },
 
         {
             id: 10,
             name: 'Patchwork Denim',
             description: 'Patch designs',
-            image: "/Men_Denim_Pant/10.png"
+            image: "/Images/men_denim_pant_10.png"
         },
         {
             id: 11,
             name: 'Wide Leg',
             description: 'Wide',
-            image: "/Men_Denim_Pant/10.png"
+            image: "/Images/men_denim_pant_11.png"
         },
         {
             id: 13,
             name: 'Eco-Washed',
             description: 'Eco',
-            image: "/Men_Denim_Pant/13.png"
+            image:"/Images/men_denim_pant_13.png"
         },
         {
             id: 14,
             name: 'Biker Jeans',
             description: 'Reinforced',
-            image: "/Men_Denim_Pant/14.png"
+            image: "/Images/men_denim_pant_14.png"
         }
 
     ];

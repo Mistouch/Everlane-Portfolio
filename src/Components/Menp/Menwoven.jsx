@@ -1,16 +1,7 @@
 import React from "react";
 import './Menwoven.css'; // We'll create this CSS file
 import Footer from "../Footerr/Footer,jsx";
-import no3 from '../Men_woven/3.png'
-import no4 from '../Men_woven/4.png'
-import no5 from '../Men_woven/5.png'
-import no6 from '../Men_woven/6.png'
-import no7 from '../Men_woven/7.png'
-import no10 from '../Men_woven/10.png'
-import no13 from '../Men_woven/13.png'
-import no14 from '../Men_woven/14.png'
-import no15 from '../Men_woven/15.png'
-import no9 from '../Men_woven/9.png'
+
 import {useNavigate} from "react-router-dom";
 const Menwoven = () => {
     const navigate = useNavigate();
@@ -20,75 +11,75 @@ const Menwoven = () => {
             id: 1,
             name: 'Linen Camp Shirt',
             description: 'Breathable 100% linen summer shirt',
-            image: "https://mobile.yoox.com/images/items/12/12814846JS_14_f.jpg?impolicy=crop&width=387&height=490"
+            image: "/Images/men_woven_1.png"
         },
         {
             id: 2,
             name: 'Chambray Workshirt',
             description: 'Durable cotton chambray workshirt',
-            image: "https://media.gq.com/photos/676096aa3f479088ff5dab4f/3:4/w_748%2Cc_limit/Layer_3-001.jpg"
+            image:  "/Images/men_woven_2.png"
         },
         {
             id: 3,
             name: 'Denim Western Shirt',
             description: 'Classic denim shirt with pearl snaps',
-            image: no3
+            image:  "/Images/men_woven_3.png"
         },
         {
             id: 4,
             name: 'Seersucker Shirt',
             description: 'Lightweight puckered cotton shirt',
-            image: no4
+            image: "/Images/men_woven_4.png"
         },
         {
             id: 5,
             name: 'Oxford Button-Down',
             description: 'Crisp cotton oxford dress shirt',
-            image: no5
+            image:  "/Images/men_woven_5.png"
         },
         {
             id: 6,
             name: 'Herringbone Tunic',
             description: 'Wool-blend herringbone pattern tunic',
-            image: no6
+            image:  "/Images/men_woven_6.png"
         },
         {
             id: 7,
             name: 'Loom & Line',
             description: 'Timeless weave, modern style.',
-            image: no7
+            image:  "/Images/men_woven_7.png"
         },
 
         {
             id: 9,
             name: 'Barong Tagalog',
             description: 'Filipino formal embroidered shirt',
-            image: no9
+            image:  "/Images/men_woven_9.png"
         },
         {
             id: 10,
             name: 'Guayabera Shirt',
             description: 'Cuban-style pleated linen shirt',
-            image: no10
+            image: "/Images/men_woven_10.png"
         },
 
         {
             id: 13,
             name: 'Band Collar Shirt',
             description: 'Modern Mandarin collar shirt',
-            image: no13
+            image: "/Images/men_woven_13.png"
         },
         {
             id: 14,
             name: 'Twill Overshirt',
             description: 'Structured cotton-twill overshirt',
-            image: no14
+            image:  "/Images/men_woven_14.png"
         },
         {
             id: 15,
             name: 'Jacquard Shirt',
             description: 'Ornate woven jacquard pattern shirt',
-            image: no15
+            image:  "/Images/men_woven_15.png"
         }
     ];
 

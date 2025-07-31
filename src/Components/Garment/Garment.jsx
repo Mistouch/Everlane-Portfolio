@@ -2,32 +2,6 @@ import React from 'react';
 import './Garment.css';
 import Footer from "../Footerr/Footer,jsx";
 import { useNavigate } from 'react-router-dom';
-import mansweter from '../Men_Sweater/4.png';
-import woven from '../Men_woven/5.png';
-import MLingerie from '../Men_Underware/4.png';
-import Mshoes from '../Assets/oxford.jpeg';
-import Wtee from '../Women_Tees/2.png';
-import Wchekcshirt from '../Women_Skirt/3.png';
-import Wmansweter from '../Women_sweater/4.png';
-import Wwoven from '../Women_woven/5.png';
-import WDenim from '../Women_denim_pant/5.png';
-import WDjacket from '../Women_DenimJacket/5.png';
-import WMLingerie from '../Women_lingerie/4.png';
-import Wblazers from '../Womenblazer/1.png';
-import Wtrouser from '../Women_trouser/1.png';
-import Wshoes from '../Assets/mascara.png';
-import Wmakup from '../Assets/mascara.png';
-import Ktee from '../Assets/Kid_tee_dinasaur.png';
-import Ksweter from '../Assets/Kid_cozy_bear.png';
-import Kwoven from '../Assets/kid_plaid_shirt.png';
-import KDenimpant from '../Assets/kid_classic_denim_pant.png';
-import KDenim from '../Assets/kid_denim_jacket.png';
-
-
-
-
-
-
 
 const Garment = () => {
     const navigate = useNavigate();
@@ -36,41 +10,43 @@ const Garment = () => {
             title: "MEN'S COLLECTION",
             description: "Precision-crafted essentials for the modern man",
             categories: [
-                { name: "T-Shirt", image: "/public/Men_Tees/1.png" , desc: "Premium cotton with perfect drape", season: "Essential", path: "/men/tee" },
-                { name: "Sweater", image: mansweter, desc: "Luxury knits for refined comfort", season: "Autumn-Winter", path: "/men/sweater" },
-                { name: "Woven", image: woven, desc: "Structured shirts with tailored fit", season: "Year-Round", path: "/men/woven" },
-                { name: "Denim Pant", image: "/Men_Denim_Pant/2.png", desc: "Engineered denim with premium washes", season: "Iconic", path: "/men/denimpant" },
-                { name: "Denim Jacket", image: "/MenDenimJacket/1.png/1.png", desc: "Timeless silhouettes reimagined", season: "Heritage", path: "/men/denimjacket" },
-                { name: "Lingerie", image: MLingerie, desc: "Crafted comfort in breathable fabrics", season: "Essentials", path: "/men/lingerie" },
-                { name: "Shoes", image: Mshoes, desc: "Contemporary footwear with precision", season: "Complete The Look", path: "/Shoes" }
+                { name: "T-Shirt", image: "/Images/men_tee_1.png" , desc: "Premium cotton with perfect drape", season: "Essential", path: "/men/tee" },
+                { name: "Sweater", image: "/Images/men_sweater_1.png", desc: "Luxury knits for refined comfort", season: "Autumn-Winter", path: "/men/sweater" },
+                { name: "Woven", image:  "/Images/men_woven_1.png", desc: "Structured shirts with tailored fit", season: "Year-Round", path: "/men/woven" },
+                { name: "Denim Pant", image: "/Images/men_denim_pant_1.png", desc: "Engineered denim with premium washes", season: "Iconic", path: "/men/denimpant" },
+                { name: "Denim Jacket", image: "/Images/men_denim_jack_1.png", desc: "Timeless silhouettes reimagined", season: "Heritage", path: "/men/denimjacket" },
+                { name: "Lingerie", image: "/Images/men_under_1.png", desc: "Crafted comfort in breathable fabrics", season: "Essentials", path: "/men/lingerie" },
+                { name: "Shoes", image: "/Images/men_shoe_1.png", desc: "Contemporary footwear with precision", season: "Complete The Look", path: "/Shoes" }
             ]
         },
         women: {
             title: "WOMEN'S COLLECTION",
             description: "Effortless elegance with couture-inspired details",
             categories: [
-                { name: "T-Shirt", image: Wtee, desc: "Ultra-soft fabrics with feminine cuts", season: "Basic", path: "/women/tee" },
-                { name: "Skirts", image: Wchekcshirt, desc: "Fluid movement with structured details", season: "Seasonal", path: "/women/skirts" },
-                { name: "Woven", image: Wmansweter, desc: "Draped perfection in luxury fabrics", season: "Office", path: "/women/woven" },
-                { name: "Sweater", image: Wwoven, desc: "Cashmere blends for timeless warmth", season: "Winter", path: "/women/sweaters" },
-                { name: "Denim Pant", image: WDenim, desc: "Body-conscious silhouettes", season: "Everyday", path: "/women/denimpants" },
-                { name: "Denim Jacket", image: WDjacket, desc: "Signature styles with modern edge", season: "Icon", path: "/women/denimjackets" },
-                { name: "Blazers", image: Wblazers, desc: "Sharp tailoring meets feminine drape", season: "Workwear", path: "/women/blazers" },
-                { name: "Trouser", image: Wtrouser, desc: "Precision-cut for powerful silhouettes", season: "Tailored", path: "/women/trousers" },
-                { name: "Lingerie", image: WMLingerie, desc: "Delicate craftsmanship meets comfort", season: "Intimates", path: "/women/lingerie" },
+                { name: "T-Shirt", image: "/Images/w_tee_1.png", desc: "Ultra-soft fabrics with feminine cuts", season: "Basic", path: "/women/tee" },
+                { name: "Skirts", image: "/Images/w_skirt_1.png", desc: "Fluid movement with structured details", season: "Seasonal", path: "/women/skirts" },
+                { name: "Woven", image: "/Images/w_sewater_1.png", desc: "Draped perfection in luxury fabrics", season: "Office", path: "/women/woven" },
+                { name: "Sweater", image: "/Images/w_woven_1.png", desc: "Cashmere blends for timeless warmth", season: "Winter", path: "/women/sweaters" },
+                { name: "Denim Pant", image: "/Images/w_denim_pant_1.png", desc: "Body-conscious silhouettes", season: "Everyday", path: "/women/denimpants" },
+                { name: "Denim Jacket", image: "/Images/w_denim_jack_1.png", desc: "Signature styles with modern edge", season: "Icon", path: "/women/denimjackets" },
+                { name: "Blazers", image: "/Images/w_blazer_1.png", desc: "Sharp tailoring meets feminine drape", season: "Workwear", path: "/women/blazers" },
+                { name: "Trouser", image: "/Images/w_trouser_1.png", desc: "Precision-cut for powerful silhouettes", season: "Tailored", path: "/women/trousers" },
+                { name: "Lingerie", image: "/Images/w_lingerie_1.png", desc: "Delicate craftsmanship meets comfort", season: "Intimates", path: "/women/lingerie" },
+                { name: "Shoes", image: "/Images/w_shoe_1.png", desc: "Footwear", season: "Complete The Look", path: "/women/shoes" },
 
-                { name: "Makeup", image: Wmakup, desc: "Beauty essentials for every look", season: "Beauty", path: "/Cosmetics" }
+                { name: "Makeup", image: "/Images/w_cos_1.png", desc: "Beauty essentials for every look", season: "Beauty", path: "/Cosmetics" }
             ]
         },
         kids: {
             title: "KIDS COLLECTION",
             description: "Playful designs with premium comfort for young explorers",
             categories: [
-                { name: "T-Shirt", image: Ktee, desc: "Organic cotton in vibrant prints", season: "Playtime", path: "/kids/tee" },
-                { name: "Sweater", image: Ksweter, desc: "Cozy knits for all adventures", season: "Winter", path: "/kids/sweater" },
-                { name: "Woven", image: Kwoven, desc: "Miniature tailoring with grown-up style", season: "School", path: "/kids/woven" },
-                { name: "Denim Pant", image: KDenimpant, desc: "Durable styles for active kids", season: "Everyday", path: "/kids/denimpant" },
-                { name: "Denim Jacket", image: KDenim, desc: "Iconic styles in child-friendly fits", season: "Weekend", path: "/kids/denimjacket" },
+                { name: "T-Shirt", image: "/Images/k_tee_1.png", desc: "Organic cotton in vibrant prints", season: "Playtime", path: "/kids/tee" },
+                { name: "Sweater", image: "/Images/k_sweater_1.png", desc: "Cozy knits for all adventures", season: "Winter", path: "/kids/sweater" },
+                { name: "Woven", image: "/Images/k_woven_1.png", desc: "Miniature tailoring with grown-up style", season: "School", path: "/kids/woven" },
+                { name: "Denim Pant", image: "/Images/k_pant_1.png", desc: "Durable styles for active kids", season: "Everyday", path: "/kids/denimpant" },
+                { name: "Denim Jacket", image: "/Images/k_jacket_1.png", desc: "Iconic styles in child-friendly fits", season: "Weekend", path: "/kids/denimjacket" },
+                { name: "Shoe", image: "/Images/k_shoe_1.png", desc: "Iconic styles in Footwear", season: "Weekend", path: "/kids/shoes" },
 
             ]
         }

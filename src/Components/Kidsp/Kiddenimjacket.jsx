@@ -1,32 +1,23 @@
 import React from "react";
 import Footer from "../Footerr/Footer,jsx";
 import "./Kiddenimjacket.css";
-import denimJacket1 from '../Assets/kid_denim_jacket.png';
 import { useNavigate } from "react-router-dom";
-import no2 from '../Kid_DenimJacket/2.png'
-import no3 from '../Kid_DenimJacket/3.png'
-import no4 from '../Kid_DenimJacket/4.png'
-import no5 from '../Kid_DenimJacket/5.png'
-import no6 from '../Kid_DenimJacket/6.png'
-import no7 from '../Kid_DenimJacket/7.png'
-import no8 from '../Kid_DenimJacket/8.png'
-import no9 from '../Kid_DenimJacket/9.png'
-import no10 from '../Kid_DenimJacket/10.png'
+
 const Kiddenimjacket = () => {
     const navigate = useNavigate();
 
     // Sample kids denim jackets data with prices added
     const kidDenimJackets = [
-        { id: 1, name: "Classic Blue Denim Jacket", color: "Light Blue", image: denimJacket1 },
-        { id: 2, name: "Distressed Denim Jacket", color: "Medium Blue", image: no2},
-        { id: 3, name: "Black Denim Jacket", color: "Black", image: no3 },
-        { id: 4, name: "Embroidered Denim Jacket", color: "Light Wash", image: no4 },
-        { id: 5, name: "Oversized Denim Jacket", color: "Dark Blue",image:no5},
-        { id: 6, name: "Acid Wash Denim Jacket", color: "Grey Wash", image: no6},
-        { id: 7, name: "Cropped Denim Jacket", color: "Medium Blue",  image: no7 },
-        { id: 8, name: "Pink Denim Jacket", color: "Pink", image: no8 },
-        { id: 9, name: "Patched Denim Jacket", color: "Dark Wash", image: no9 },
-        { id: 10, name: "Faded Denim Jacket", color: "Vintage Blue",  image: no10 }
+        { id: 1, name: "Classic Blue Denim Jacket", color: "Light Blue", image: "/Images/k_jacket_1.png" },
+        { id: 2, name: "Distressed Denim Jacket", color: "Medium Blue", image:  "/Images/k_jacket_2.png"},
+        { id: 3, name: "Black Denim Jacket", color: "Black", image:  "/Images/k_jacket_3.png" },
+        { id: 4, name: "Embroidered Denim Jacket", color: "Light Wash", image:  "/Images/k_jacket_4.png" },
+        { id: 5, name: "Oversized Denim Jacket", color: "Dark Blue",image: "/Images/k_jacket_5.png"},
+        { id: 6, name: "Acid Wash Denim Jacket", color: "Grey Wash", image:  "/Images/k_jacket_6.png"},
+        { id: 7, name: "Cropped Denim Jacket", color: "Medium Blue",  image:  "/Images/k_jacket_7.png" },
+        { id: 8, name: "Pink Denim Jacket", color: "Pink", image:  "/Images/k_jacket_8.png" },
+        { id: 9, name: "Patched Denim Jacket", color: "Dark Wash", image:  "/Images/k_jacket_9.png" },
+        { id: 10, name: "Faded Denim Jacket", color: "Vintage Blue",  image:  "/Images/k_jacket_10.png" }
     ];
 
     return (

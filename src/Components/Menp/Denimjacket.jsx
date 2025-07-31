@@ -12,61 +12,61 @@ const Denimjacket = () => {
             id: 1,
             name: 'CLASSIC BLUE DENIM',
             details: 'Medium wash | Metal buttons',
-            image: "/MenDenimJacket/1.png"
+            image: "/Images/men_denim_jack_1.png"
         },
         {
             id: 2,
             name: 'BLACK DENIM',
             details: 'Slim-fit | Matte finish',
-            image: "/MenDenimJacket/2.png"
+            image: "/Images/men_denim_jack_2.png"
         },
         {
             id: 3,
             name: 'VINTAGE WASHED',
             details: 'Distressed | Authentic wear',
-            image:  "/MenDenimJacket/3.png"
+            image:  "/Images/men_denim_jack_3.png"
         },
         {
             id: 4,
             name: 'OVERSIZED FIT',
             details: 'Relaxed | Dropped shoulders',
-            image :  "/MenDenimJacket/4.png"
+            image :  "/Images/men_denim_jack_4.png"
         },
         {
             id: 5,
             name: 'SHERPA-LINED',
             details: 'Fleece lining | Cold weather',
-            image:  "/MenDenimJacket/5.png"
+            image:  "/Images/men_denim_jack_5.png"
         },
         {
             id: 6,
             name: 'LIGHT WASH',
             details: 'Summer-weight | Faded',
-            image:  "/MenDenimJacket/6.png"
+            image:  "/Images/men_denim_jack_6.png"
         },
         {
             id: 7,
             name: 'BIKER STYLE',
             details: 'Asymmetric zip | Snap cuffs',
-            image :  "/MenDenimJacket/7.png"
+            image :  "/Images/men_denim_jack_7.png"
         },
         {
             id: 8,
             name: 'EMBROIDERED',
             details: 'Floral details | Back panel',
-            image:  "/MenDenimJacket/8.png"
+            image:  "/Images/men_denim_jack_8.png"
         },
         {
             id: 9,
             name: 'CROPPED FIT',
             details: 'Short length | Raw hem',
-            image:  "/MenDenimJacket/9.png"
+            image: "/Images/men_denim_jack_9.png"
         },
         {
             id: 10,
             name: 'SELVEDGE DENIM',
             details: 'Japanese | Premium quality',
-            image:  "/MenDenimJacket/10.png"
+            image: "/Images/men_denim_jack_10.png"
         }
     ];
 

@@ -94,13 +94,13 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-.footer-column {
+    .footer-column {
         flex: 0 0 50%;
     }
 }
 
 @media (max-width: 480px) {
-.footer-column {
+    .footer-column {
         flex: 0 0 100%;
     }
 }

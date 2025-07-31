@@ -75,54 +75,54 @@ const Trim = () => {
         {
             title: "Labels",
             items: [
-                { name: "Printed Labels", image: print_label },
-                { name: "Woven Labels", image: wl },
-                { name: "Heat Transfer Labels", image: htl }
+                { name: "Printed Labels", image: "/Images/p_l.png" },
+                { name: "Woven Labels", image:  "/Images/wl.png" },
+                { name: "Heat Transfer Labels", image:  "/Images/htl.png"}
             ]
         },
         {
             title: "Offset Printing",
             items: [
-                { name: "Hangtags", image: hgtg },
-                { name: "Adhesive Stickers", image: as },
-                { name: "Photo Cards", image: pc }
+                { name: "Hangtags", image:  "/Images/hgtg.png" },
+                { name: "Adhesive Stickers", image:  "/Images/as.png" },
+                { name: "Photo Cards", image:  "/Images/pc.png" }
             ]
         },
         {
             title: "Twill Tape & Elastic",
             items: [
-                { name: "Elastic", image: elastic },
-                { name: "Drawcord", image:dc },
-                { name: "Satin & Cotton Ribbon", image:scr },
-                { name: "Twill Tape", image: tt },
-                { name: "Drawstring", image: ds },
-                { name: "Woven Elastic", image: we }
+                { name: "Elastic", image:  "/Images/elastic.png" },
+                { name: "Drawcord", image: "/Images/drowcode.png" },
+                { name: "Satin & Cotton Ribbon", image: "/Images/scr.png" },
+                { name: "Twill Tape", image:  "/Images/tt.png"},
+                { name: "Drawstring", image:  "/Images/ds.png" },
+                { name: "Woven Elastic", image:  "/Images/we.png" }
             ]
         },
         {
             title: "Accessories",
             items: [
-                { name: "Gum Tape", image: gt },
-                { name: "Button", image: btn },
-                { name: "Poly", image: poly },
-                { name: "Hanger Loop", image: hanl },
-                { name: "Mobilon Tape", image: mob_t },
-                { name: "Silica Gel", image:slca },
-                { name: "Super Dry", image: elt },
-                { name: "Eyelet", image: elt },
-                { name: "Neck Board", image: nb },
-                { name: "Tag/Lock Pin", image:tlp },
-                { name: "Back Board", image: bb },
-                { name: "Tissue Paper", image: tp },
-                { name: "Leather Patch", image: lp },
-                { name: "Mash Fabrics", image: mf },
-                { name: "Stopper", image: stp },
-                { name: "Collar Stay", image: cs },
-                { name: "Collar Band", image: cb },
-                { name: "Butterfly", image:btf },
-                { name: "Velcro Tape", image: vt },
-                { name: "Piping Cord", image: ppc },
-                { name: "Strings", image: str }
+                { name: "Gum Tape", image:  "/Images/gum_tape.png" },
+                { name: "Button", image:  "/Images/button.png"},
+                { name: "Poly", image:  "/Images/poly.png" },
+                { name: "Hanger Loop", image:  "/Images/Hangerloop.png" },
+                { name: "Mobilon Tape", image:  "/Images/mobilon_tape.png" },
+                { name: "Silica Gel", image: "/Images/silica.png" },
+                { name: "Super Dry", image:  "/Images/eliet.png" },
+                { name: "Eyelet", image:  "/Images/eliet.png" },
+                { name: "Neck Board", image:  "/Images/neck_bord.png" },
+                { name: "Tag/Lock Pin", image:  "/Images/tag_loc_pin.png"},
+                { name: "Back Board", image:  "/Images/back_bord.png" },
+                { name: "Tissue Paper", image:  "/Images/tissue_paper.png" },
+                { name: "Leather Patch", image:  "/Images/leatehr_patch.png" },
+                { name: "Mash Fabrics", image:  "/Images/mesh_feb.png" },
+                { name: "Stopper", image:  "/Images/stoper.png" },
+                { name: "Collar Stay", image:  "/Images/collar_stay.png" },
+                { name: "Collar Band", image:  "/Images/collar_band.png" },
+                { name: "Butterfly", image:  "/Images/butterfly.png" },
+                { name: "Velcro Tape", image:  "/Images/vecro_tape.png" },
+                { name: "Piping Cord", image:  "/Images/poping_cord.png" },
+                { name: "Strings", image:  "/Images/strings.png" }
             ]
         }
     ];

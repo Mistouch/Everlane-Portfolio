@@ -5,7 +5,6 @@ import "./OurConcerns.css";
 import empowermentImg from '../Concern_img/wom_em.png';
 import businessImg from '../Concern_img/En_gr.png'
 import ecoImg from '../Concern_img/eco.png'
-import trustImg from '../Kid_Tees/3.png';
 import communityImg from '../Concern_img/tranperency.png'
 import customerImg from '../Concern_img/cou_com.png'
 import Footer from "../Footerr/Footer,jsx";
@@ -40,7 +39,7 @@ const OurConcerns = () => {
             title: "Transparent Operations",
             aim: "We aim to build complete trust",
             description: "Through open communication and ethical business practices, we maintain accountability at every level. Our supply chain transparency initiatives set new industry standards.",
-            image: trustImg,
+            image: "Images/k_tee_3.png",
             color: "#f39c12",
             icon: "🔍"
         },

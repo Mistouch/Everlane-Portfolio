@@ -2,41 +2,26 @@ import React from "react";
 import Footer from "../Footerr/Footer,jsx";
 import "./Womenshirt.css";
 import { useNavigate } from "react-router-dom";
-import women_classic_w_blouse from '../Assets/women_classic_w_blouse.png';
-import no2 from '../Women_Tees/2.png'
-import no3 from '../Women_Tees/3.png'
-import no4 from '../Women_Tees/4.png'
-import no5  from '../Women_Tees/5.png'
-import no6  from '../Women_Tees/6.png'
-import no7  from '../Women_Tees/7.png'
-import no8  from '../Women_Tees/8.png'
-import no9  from '../Women_Tees/9.png'
-import no10  from '../Women_Tees/10.png'
-import no11  from '../Women_Tees/11.png'
-import no12  from '../Women_Tees/12.png'
-import no13  from '../Women_Tees/13.png'
-import no14  from '../Women_Tees/14.png'
-import no15  from '../Women_Tees/15.png'
 const Womenshirt = () => {
     const navigate = useNavigate();
 
     // Women's t-shirt data
     const tshirts = [
-        { id: 1, name: "CLASSIC WHITE BLOUSE", color: "White", image: women_classic_w_blouse },
-        { id: 2, name: "BLACK V-NECK TEE", color: "Black", image: no2 },
-        { id: 3, name: "FLORAL PRINT TOP", color: "Navy/Pink", image: no3 },
-        { id: 4, name: "OVERSIZED GRAY TEE", color: "Heather Gray", image: no4 },
-        { id: 5, name: "CROPPED PINK TEE", color: "Pink", image: no5 },
-        { id: 6, name: "STRIPED BOAT NECK", color: "Red/White", image: no6 },
-        { id: 7, name: "SATIN CAMISOLE", color: "Black", image: no7 },
-        { id: 8, name: "RUFFLED BLOUSE", color: "Mint", image: no8 },
-        { id: 9, name: "WRAP FRONT TOP", color: "Leopard Print",image: no9 },
-        { id: 10, name: "LACE TRIM TEE", color: "Ivory", image: no10 },
-        { id: 11, name: "COLD SHOULDER TOP", color: "Royal Blue", image: no11 },
-        { id: 12, name: "SATIN IE-WAIST BLOUSE", color: "Mint", image: no12 },
-        { id: 13, name: "SILK BUTTON-DOWN", color: "Golden", image: no13 },
-        { id: 14, name: "OFF-SHOULDER TOP", color: "Yellow", image: no14 },
-        { id: 15, name: "BELTED TUNIC", color: "Emerald", image: no15 }
+        { id: 1, name: "CLASSIC WHITE BLOUSE", color: "White", image: "/Images/w_tee_1.png" },
+        { id: 2, name: "BLACK V-NECK TEE", color: "Black", image: "/Images/w_tee_2.png" },
+        { id: 3, name: "FLORAL PRINT TOP", color: "Navy/Pink", image: "/Images/w_tee_3.png" },
+        { id: 4, name: "OVERSIZED GRAY TEE", color: "Heather Gray", image: "/Images/w_tee_4.png" },
+        { id: 5, name: "CROPPED PINK TEE", color: "Pink", image: "/Images/w_tee_5.png" },
+        { id: 6, name: "STRIPED BOAT NECK", color: "Red/White", image: "/Images/w_tee_6.png" },
+        { id: 7, name: "SATIN CAMISOLE", color: "Black", image: "/Images/w_tee_7.png" },
+        { id: 8, name: "RUFFLED BLOUSE", color: "Mint", image: "/Images/w_tee_8.png" },
+        { id: 9, name: "WRAP FRONT TOP", color: "Leopard Print",image: "/Images/w_tee_9.png" },
+        { id: 10, name: "LACE TRIM TEE", color: "Ivory", image: "/Images/w_tee_10.png" },
+        { id: 11, name: "COLD SHOULDER TOP", color: "Royal Blue", image: "/Images/w_tee_11.png" },
+        { id: 12, name: "SATIN IE-WAIST BLOUSE", color: "Mint", image: "/Images/w_tee_12.png" },
+        { id: 13, name: "SILK BUTTON-DOWN", color: "Golden", image: "/Images/w_tee_13.png" },
+        { id: 14, name: "OFF-SHOULDER TOP", color: "Yellow", image: "/Images/w_tee_14.png" },
+        { id: 15, name: "BELTED TUNIC", color: "Emerald", image: "/Images/w_tee_15.png" }
     ];
 
     return (

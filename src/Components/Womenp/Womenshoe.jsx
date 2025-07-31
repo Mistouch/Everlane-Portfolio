@@ -1,19 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import './Womenshoe.css';
-import Footer from "../Footerr/Footer,jsx";
-import no1 from '../Women_shoe/1.png';
-import no2 from '../Women_shoe/2.png';
-import no3 from '../Women_shoe/3.png';
-import no4 from '../Women_shoe/4.png';
-import no5 from '../Women_shoe/5.png';
-import no6 from '../Women_shoe/6.png';
-import no7 from '../Women_shoe/7.png';
-import no8 from '../Women_shoe/8.png';
-import no9 from '../Women_shoe/9.png';
-import no10 from '../Women_shoe/10.png';
-import no11  from '../Women_shoe/11.png';
-import no12 from '../Women_shoe/12.png';
 const Womenshoe = () => {
     const navigate = useNavigate();
 
@@ -22,73 +9,73 @@ const Womenshoe = () => {
             id: 1,
             name: 'Leather ankle boots',
             color: 'Black',
-            image: no1
+            image: "/Images/w_shoe_1.png"
         },
         {
             id: 2,
             name: 'Stiletto pumps',
             color: 'Navy blue',
-            image: no2
+            image: "/Images/w_shoe_2.png"
         },
         {
             id: 3,
             name: 'White sneakers',
             color: 'White',
-            image: no3
+            image: "/Images/w_shoe_3.png"
         },
         {
             id: 4,
             name: 'Tassel loafers',
             color: 'Brown',
-            image: no4
+            image: "/Images/w_shoe_4.png"
         },
         {
             id: 5,
             name: 'Slide sandals',
             color: 'Tan',
-            image: no5
+            image: "/Images/w_shoe_5.png"
         },
         {
             id: 6,
             name: 'Combat boots',
             color: 'Black',
-            image: no6
+            image: "/Images/w_shoe_6.png"
         },
         {
             id: 7,
             name: 'Ballet flats',
             color: 'Blush pink',
-            image: no7
+            image: "/Images/w_shoe_7.png"
         },
         {
             id: 8,
             name: 'Open-back mules',
             color: 'Cream',
-            image: no8
+            image: "/Images/w_shoe_8.png"
         },
         {
             id: 9,
             name: 'Wedge sandals',
             color: 'Natural',
-            image: no9
+            image: "/Images/w_shoe_9.png"
         },
         {
             id: 10,
             name: 'Chunky sneakers',
             color: 'White',
-            image: no10
+            image: "/Images/w_shoe_10.png"
         },
         {
             id: 11,
             name: 'Pointed flats',
             color: 'Metallic gold',
-            image: no11
+            image: "/Images/w_shoe_11.png"
         },
         {
             id: 12,
             name: 'Knee high boots',
             color: 'Black',
-            image: no12
+            image: "/Images/w_shoe_12.png"
         }
     ];
 

@@ -6,22 +6,22 @@ const Menshirt = () => {
     const navigate = useNavigate();
     // Sample t-shirt data
     const tshirts = [
-        { id: 1, name: "Classic White Tee", color: "White", image: "/Men_Tees/1.png" },
-        { id: 2, name: "Black Premium Cotton", color: "Black", image: "/Men_Tees/2.png" },
-        { id: 3, name: "Navy Blue Stripe", color: "Navy",  image: "/Men_Tees/3.png" },
-        { id: 4, name: "Heather Gray", color: "Gray", image: "/Men_Tees/4.png" },
-        { id: 5, name: "Red V-Neck", color: "Red",  image: "/Men_Tees/5.png" },
-        { id: 6, name: "Olive Green Basic", color: "Olive",  image: "/Men_Tees/6.png" },
-        { id: 7, name: "Maroon Crewneck", color: "Maroon",  image: "/Men_Tees/7.png" },
-        { id: 8, name: "Sky Blue Pocket", color: "Blue",  image: "/Men_Tees/8.png" },
-        { id: 9, name: "Charcoal Heather", color: "Charcoal",  image: "/Men_Tees/9.png" },
-        { id: 10, name: "Mustard Yellow", color: "Yellow",  image: "/Men_Tees/10.png" },
-        { id: 11, name: "Forest Green", color: "Green", image: "/Men_Tees/11.png" },
-        { id: 12, name: "Sandstone", color: "Tan",  image: "/Men_Tees/12.png" },
-        { id: 13, name: "Burgundy", color: "Burgundy",  image: "/Men_Tees/13.png" },
-        { id: 14, name: "Slate Gray", color: "Slate",  image: "/Men_Tees/14.png"},
-        { id: 15, name: "Coral Summer", color: "Coral",  image: "/Men_Tees/15.png" },
-        { id: 15, name: "Polo", color: "Black",  image: "/Men_Tees/16.png" }
+        { id: 1, name: "Classic White Tee", color: "White", image: "/Images/men_tee_1.png" },
+        { id: 2, name: "Black Premium Cotton", color: "Black", image: "/Images/men_tee_2.png" },
+        { id: 3, name: "Navy Blue Stripe", color: "Navy",  image: "/Images/men_tee_3.png" },
+        { id: 4, name: "Heather Gray", color: "Gray", image: "/Images/men_tee_4.png" },
+        { id: 5, name: "Red V-Neck", color: "Red",  image: "/Images/men_tee_5.png" },
+        { id: 6, name: "Olive Green Basic", color: "Olive",  image:"/Images/men_tee_6.png" },
+        { id: 7, name: "Maroon Crewneck", color: "Maroon",  image: "/Images/men_tee_7.png" },
+        { id: 8, name: "Sky Blue Pocket", color: "Blue",  image: "/Images/men_tee_8.png" },
+        { id: 9, name: "Charcoal Heather", color: "Charcoal",  image: "/Images/men_tee_9.png" },
+        { id: 10, name: "Mustard Yellow", color: "Yellow",  image: "/Images/men_tee_10.png" },
+        { id: 11, name: "Forest Green", color: "Green", image: "/Images/men_tee_11.png" },
+        { id: 12, name: "Sandstone", color: "Tan",  image: "/Images/men_tee_12.png" },
+        { id: 13, name: "Burgundy", color: "Burgundy",  image: "/Images/men_tee_13.png" },
+        { id: 14, name: "Slate Gray", color: "Slate",  image: "/Images/men_tee_14.png"},
+        { id: 15, name: "Coral Summer", color: "Coral",  image: "/Images/men_tee_15.png" },
+        { id: 15, name: "Polo", color: "Black",  image: "/Images/men_tee_16.png" }
 
     ];
 
