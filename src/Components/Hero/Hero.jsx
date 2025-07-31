@@ -67,7 +67,7 @@ const Hero = () => {
                         muted
                         playsInline
                         preload="metadata"
-                        poster ="Images/proxy_pic.jpg"
+                        poster ="Images/proxy_pic.webp"
                         className="hero-video"
                     >
                         <source src="/video/vid.webm" type="video/webm" />
