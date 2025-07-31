@@ -70,7 +70,7 @@ const Hero = () => {
                         poster ="Images/proxy_pic.jpg"
                         className="hero-video"
                     >
-                        <source src="/video/Vid2.mp4" type="video/mp4" />
+                        <source src="/video/Vid2.webm" type="video/webm" />
                         Your browser does not support this video.
                     </video>
 
