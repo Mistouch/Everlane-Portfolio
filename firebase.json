@@ -8,37 +8,34 @@
     ],
     "rewrites": [
       {
-        "source": "/Men_Tees/**",
-        "destination": "/Men_Tees/**"
-      },
-      {
-        "source": "/Men_Denim_Pant/**",
-        "destination": "/Men_Denim_Pant/**"
-      },
-      {
-        "source": "/MenDenimJacket/**",
-        "destination": "/MenDenimJacket/**"
-      },
-      {
-        "source": "/static/**",
-        "destination": "/static/**"
-      },
-      {
         "source": "**",
         "destination": "/index.html"
       }
     ],
     "headers": [
       {
-        "source": "/**/*.@(jpg|jpeg|gif|png|webp|svg)",
+        "source": "/Images/**/*.@(jpg|jpeg|gif|png|webp|svg)",
         "headers": [
           {
             "key": "Cache-Control",
             "value": "public, max-age=31536000, immutable"
           },
           {
-            "key": "Access-Control-Allow-Origin",
-            "value": "*"
+            "key": "Content-Encoding",
+            "value": "gzip"
+          }
+        ]
+      },
+      {
+        "source": "/Video/**/*.@(mp4|webm|mov)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=604800"  // 1 week for videos
+          },
+          {
+            "key": "Accept-Ranges",
+            "value": "bytes"  // Enable video streaming
           }
         ]
       }

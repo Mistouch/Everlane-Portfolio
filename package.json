@@ -1,17 +1,14 @@
 {
   "homepage": ".",
-  "base": "/",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/react": "^14.2.1",  // Updated for React 19
+    "@testing-library/user-event": "^14.5.2",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.23.10",
-    "next": "^15.4.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
@@ -21,11 +18,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && robocopy public\\Men_Denim_Jacket build\\Men_Denim_Jacket /E /NFL /NDL /NJH /NJS",
+    "clean": "rmdir /s /q build || true",
+    "build": "npm run clean && react-scripts build && npm run copy-assets && npm run optimize-assets",
+    "copy-assets": "robocopy public\\Images build\\Images /E /NFL /NDL /NJH /NJS && robocopy public\\Video build\\Video /E /NFL /NDL /NJH /NJS",
+    "optimize-assets": "cwebp -q 80 public/Images/**/*.png -o build/Images/ -e .webp && ffmpeg -i public/Video/**/*.mp4 -vcodec libx264 -crf 28 -preset fast build/Video/",
     "deploy": "npm run build && firebase deploy --only hosting",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "convert-images": "cwebp -q 80 public/Men_Tees/*.png -o build/Men_Tees/ -e .webp"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -46,7 +45,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "webp-converter": "^2.3.3"
+    "ffmpeg-static": "^5.3.0"  //
   }
 }
